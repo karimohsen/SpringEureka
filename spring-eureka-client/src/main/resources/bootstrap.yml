@@ -1,0 +1,15 @@
+---
+spring:
+  profiles: profile1
+  application:
+    name: spring-eureka-clinet1
+---
+spring:
+  profiles: profile2
+  application:
+    name: spring-eureka-clinet2
+---
+spring:
+  profiles: profile3
+  application:
+    name: spring-eureka-clinet3

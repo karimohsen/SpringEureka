@@ -1,0 +1,22 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+---
+spring:
+  profiles: profile1
+words: hello from profile 1
+server:
+  port: 8003
+---
+spring:
+  profiles: profile2
+words: hello from profile 2
+server:
+  port: 8004
+---
+spring:
+  profiles: profile3
+words: hello from profile 3
+server:
+  port: 8005
